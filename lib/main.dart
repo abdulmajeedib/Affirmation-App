@@ -74,7 +74,7 @@ class _HomePageState extends State<HomePage> {
 
    Future<void> _fetchRandomImage() async {
     const String apiUrl = 'https://api.api-ninjas.com/v1/randomimage?category=nature';
-    const String apiKey = 'gOew/3L5sijrIjdxpHmXpw==ijn4ToCAido6ivAD';
+    const String apiKey = 'YOUR_API_KEY';
 
   final headers = {
     'X-Api-Key': apiKey,
